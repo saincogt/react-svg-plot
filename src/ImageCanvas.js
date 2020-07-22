@@ -1,6 +1,6 @@
 import React from 'react';
 import { validateLine } from './validateLine';
-import RenderShape from './renderShape';
+import RenderShape from './RenderShape';
 
 const ImageCanvas = ({ data }) => {
 	const foramtInput = (inputData) => {

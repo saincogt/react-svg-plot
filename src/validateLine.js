@@ -4,7 +4,6 @@ let pStr = /^p(\s*\d+\s*,\s*\d+\s*){2,}(\s*\d+\s*,\s*\d+\s*)\s*$/gi;
 let lStr = /^l(\s+\d+){5}\s*$/gi;
 
 export const validateLine = (data, idx) => {
-	data.trim();
 	if (data.match(cStr)) {
 		let validatedData = data
 			.split(' ')
