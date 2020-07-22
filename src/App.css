@@ -1,0 +1,12 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	padding: 3rem 5rem;
+}
+
+.svg-canvas {
+	display: block;
+	margin: auto;
+	margin-bottom: 1rem;
+	border: 1px solid black;
+}
