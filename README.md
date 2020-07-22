@@ -20,12 +20,14 @@ The following functionality should be captured.
 ### `yarn install`
 
 Run this command under the application directory to install dependencies of the application.
+If you use `npm` instead of `yarn`, you may run command `npm run install`.
 
 ### `yarn start`
 
 After finishing install, run this command under the application directory. It will run the application in the development mode.
 
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+If you use `npm` instead of `yarn`, you may run command `npm start`.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
