@@ -12,7 +12,7 @@ const ImageCanvas = ({ data }) => {
 		return validatedLineArr;
 	};
 	const generateColor = () => {
-		return '#' + Math.random().toString(16).substr(-6);
+		return `#${Math.random().toString(16).substr(-6)}`;
 	};
 	return (
 		<div>
