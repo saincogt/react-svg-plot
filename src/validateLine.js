@@ -1,6 +1,6 @@
 let cStr = /^c(\s+\d+){3}\s*$/gi;
 let rStr = /^r(\s+\d+){4}\s*$/gi;
-let pStr = /^p(\s*\[\s*\d+\s*,\s*\d+\s*\]\s*){2,}(\s*\[\s*\d+\s*,\s*\d+\s*\])\s*$/gi;
+let pStr = /^p(\s*\d+\s*,\s*\d+\s*){2,}(\s*\d+\s*,\s*\d+\s*)\s*$/gi;
 
 export const validateLine = (data, idx) => {
 	data.trim();
@@ -25,7 +25,7 @@ export const validateLine = (data, idx) => {
 		};
 		return result;
 	} else if (data.match(pStr)) {
-		let validatedData = data.replace(/p|\[|]/g, '');
+		let validatedData = data.replace(/p\s*|\s+/g, ' ');
 		let result = {
 			type: 'p',
 			values: validatedData
