@@ -32,7 +32,7 @@ const RenderShape = ({ item, color }) => {
 				x2={item.values[3]}
 				y2={item.values[4]}
 				stroke={color}
-				stroke-width={item.values[5]}
+				strokeWidth={item.values[5]}
 			/>
 		);
 	}
