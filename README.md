@@ -7,7 +7,7 @@ The following functionality should be captured.
 
 -   SVG Element Must Be 250px wide and 250px high
 -   The Input field Must Be a textarea element.
--   The plotting language should conform to the following grammar R <X Coordinate> <Y Coordinate> <Width> <Height> - Should Draw a rectangle with the parameters marked onto the SVG C <CX Coordinate> <CY Coordinate> <Radius> - Should Draw a circle with the parameters marked onto the SVG P <X1,Y1> <X2,Y2> <X3,Y3> ..... <Xn,Yn> - Should draw a polygon onto the SVG with the points specified
+-   The plotting language should conform to the following grammar `R <X Coordinate> <Y Coordinate> <Width> <Height>` - Should Draw a rectangle with the parameters marked onto the SVG `C <CX Coordinate> <CY Coordinate> <Radius>` - Should Draw a circle with the parameters marked onto the SVG `P <X1,Y1> <X2,Y2> <X3,Y3> ..... <Xn,Yn>` - Should draw a polygon onto the SVG with the points specified
 -   The Plotter should alert the user if the syntax of the plotting arguments is not well formed and should make an effort to tell them at which line in the text area the error had occurred
 -   The colour of all SVG elements should be chosen at random.
 
