@@ -17,6 +17,7 @@
 textarea {
 	resize: vertical;
 	padding: 1rem;
+	border-radius: 0;
 }
 
 .svg-canvas {
