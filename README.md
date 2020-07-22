@@ -34,6 +34,8 @@ If you use `npm` instead of `yarn`, you may run command `npm start`.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
+I have tested the application both Chrome and FireFox, please let me know if you find any issues.
+
 ## Full Stack: Offline Coding Exercise Requirements
 
 Using Vue (or React) with no other third party libraries, write a simple implementation of a Plotter - which when given various drawing commands from within a text area, should be able draw them in real-time onto an SVG element.
