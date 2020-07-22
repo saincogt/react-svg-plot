@@ -23,10 +23,10 @@ This feature is for the bonus requirement, the command format is:
 
 You could use the following test data to verify all the four shapes:
 
-> p 200,10 250,190 160,210
-> c 20 100 20
-> r 100 50 25 25
-> l 40 10 60 200 5
+> p 200,10 250,190 160,210\
+> c 20 100 20\
+> r 100 50 25 25\
+> l 40 10 60 200 5\
 
 ## How to run the app?
 
