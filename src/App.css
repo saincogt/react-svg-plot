@@ -58,7 +58,13 @@ textarea {
 	margin-right: 1rem;
 }
 
+.instruction {
+	height: 100%;
+	width: 24px;
+}
+
 .navbar {
+	box-sizing: border-box;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -83,4 +89,48 @@ textarea {
 	padding-top: 3rem;
 	width: 100%;
 	bottom: 0;
+}
+
+.backdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+}
+.backdrop img {
+	display: block;
+	max-width: 60%;
+	max-height: 80%;
+	margin: 60px auto;
+	box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
+	border: 3px solid white;
+}
+
+.modal-header {
+	padding: 2px 1rem;
+	background-color: #333;
+	color: white;
+}
+
+.modal-body {
+	padding: 3rem 16px;
+	padding-top: 1rem;
+}
+.modal-body p {
+	font-size: 0.8rem;
+	line-height: 2;
+}
+.modal-content {
+	position: relative;
+	background-color: #fefefe;
+	margin: 14% 20%;
+	padding: 0;
+	border: 1px solid #888;
+	width: 60%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.command-example {
+	padding-left: 1rem;
 }
