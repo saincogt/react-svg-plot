@@ -21,10 +21,14 @@ const Modal = ({ setOpen }) => {
 						circle, a rectangle and a line:
 					</p>
 					<div className='command-example'>
-						<p>p 200,10 250,190 160,210</p>
-						<p>c 20 100 20</p>
-						<p>r 100 50 25 25</p>
-						<p>l 40 10 60 200 5</p>
+						<p>
+							p 200,10 250,190 160,210
+							<br />
+							c 20 100 20
+							<br />
+							r 100 50 25 25
+							<br />l 40 10 60 200 5
+						</p>
 					</div>
 				</div>
 			</div>
